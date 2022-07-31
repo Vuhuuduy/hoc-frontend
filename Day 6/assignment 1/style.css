@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(66, 195, 235);
+    width: 100%;
+    height: 100vh;
+   
+  }
+  html{
+    font-size: 62.5%;
+  }
+  #wrapper {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #form-login {
+    max-width: 400px;
+    background: white;
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(61, 60, 60, 0.8);
+    border: 2px solid rgb(66, 195, 235);
+    border-radius: 12px;
+    padding: 40px;
+    font-size: 40px;
+  }
+  .form-heading {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .form-group {
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    border: 2px solid gainsboro;
+    border-radius: 12px;
+    padding: 3px;
+  }
+  .form-input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    flex-grow: 1;
+    padding: 10px;
+  }
+  .form-submit {
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    border-radius: 30px;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 3px;
+    background-color: blue;
+  }
+  .form-submit:hover {
+    border: 1px solid #0a8f1c;
+  }
+  
+  .font-icon {
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  .icon-facebook {
+    background-color: blue;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: -150px;
+  }
+  .icon-facebook i {
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(100%, 50%);
+  }
+  .icon-google {
+    background-color: red;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -150px;
+  }
+  .icon-google i {
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+  }
+  .icon-twitter {
+    background-color: rgb(15, 211, 129);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0%;
+    border-radius: 50%;
+    top: -150px;
+  }
+  .icon-twitter i {
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+  }
+  

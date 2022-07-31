@@ -1,0 +1,43 @@
+/* 
+inline: không xét dc width, height, margin-cuttom */
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+  }
+  .demo1 {
+    width: 200px;
+    margin-top: 30px;
+    display: inline-block;}
+    .font {
+      color: blue;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      font-weight: 900;
+      font-style: oblique;}
+      .text {
+        color: brown;
+        text-align: center;
+        text-decoration: underline cornflowerblue double;
+        text-transform: lowercase;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        line-height: 1,3px;
+        white-space: nowrap;}
+  .img{
+      width: 400;
+      height: 400;
+      object-fit: cover;
+      border-radius: 50%;
+  /* pseudo_class: hover active visited ... */
+  /* selector: tag, class, id */
+  }
+  .hover:hover {
+  color: blue;
+  color: red;
+  }
+  .visited:visited{
+      color: green;
+  }
+  .active:active{
+      color: purple;
+  }
